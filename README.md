@@ -23,7 +23,7 @@ MyAirport.Pim<br>
 | |-+Sql<br>
 |-+Client.FormIhm<br>
 | |-+PimState<br>
-||-+Program<br>
+| |-+Program<br>
 |-+Entities<br>
 | |-+BagageDefinition<br>
 | |-+MultipleBagageFault<br>
