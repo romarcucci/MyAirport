@@ -1,7 +1,8 @@
 # MyAirport.Pim - Romain Marcucci & Amarnath Sundaram
 
 ## Fonctionnement du projet
-L'application que nous avons développée permet de gérer le flux de bagages pour les aéroports. Au démarrage du projet, deux fenêtres s'ouvrent. La premiere qui s'appelle "Form1" 
+
+<p>L'application que nous avons développée permet de gérer le flux de bagages pour les aéroports. Au démarrage du projet, deux fenêtres s'ouvrent. La premiere qui s'appelle "Form1" 
 permet d'activer les webservices. Il faut pour cela cliquer sur le bouton "Create", l'état du webservice est alors à "created" et l'on peut ouvrir la connexion. Il suffit de cliquer 
 sur le bouton "Open", l'état est alors à "opened".<br><br>
 On peut maintenant utiliser la fenêtre "PIM". La fenêtre est composée de plusieurs parties. Un menu tout en haut avec les champs "Commandes" et "Etat". "Commandes" contient un champs 
@@ -10,27 +11,29 @@ Ensuite nous avons deux parties appellées "Recherche" et "Resultat", la premiere
 pas activé ou que le bagage n'existe pas, un message d'erreur s'affichera en bas à gauche. Autrement les informations relatives à ce bagage seront affichées dans les champs prévus pour 
 cela. En passant en mode création, les champs seront activés ainsi que le bouton créer. Cela permet de créer un bagage et de l'ajouter à la base de données 
 (cela provoque une exception: System.ServiceModel.EndpointNotFoundException ).
+</p>
 
 ## Architecture du projet
-<p>
-MyAirport.Pim<br>
-|-+Models<br>
-|&nbsp;|-+AbstractDefinition<br>
-|&nbsp;|-+Factory<br>
-|&nbsp;|-+Natif<br>
-|&nbsp;|-+Sql<br>
-|-+Client.FormIhm<br>
-|&nbsp;|-+PimState<br>
-|&nbsp;|-+Program<br>
-|-+Entities<br>
-|&nbsp;|-+BagageDefinition<br>
-|&nbsp;|-+MultipleBagageFault<br>
-|-+Server.Host<br>
-|&nbsp;|-+Program<br>
-|-+ServicePim<br>
-|&nbsp;|-+IServicePim<br>
-|&nbsp;|-+ServicePim<br>
-</p>
+
+<ul>
+<li>MyAirport.Pim</li>
+<li>|-+Models</li>
+<li>| |-+AbstractDefinition</li>
+<li>| |-+Factory</li>
+<li>| |-+Natif</li>
+<li>| |-+Sql</li>
+<li>|-+Client.FormIhm</li>
+<li>| |-+PimState</li>
+<li>| |-+Program</li>
+<li>|-+Entities</li>
+<li>| |-+BagageDefinition</li>
+<li>| |-+MultipleBagageFault</li>
+<li>|-+Server.Host</li>
+<li>| |-+Program</li>
+<li>|-+ServicePim</li>
+<li>| |-+IServicePim</li>
+<li>| |-+ServicePim</li>
+</ul>
 
 ###Projets de demarages
 ClientForm
