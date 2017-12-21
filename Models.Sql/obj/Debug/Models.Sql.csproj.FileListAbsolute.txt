@@ -22,3 +22,9 @@ C:\Users\Utilisateur\Documents\ING5\DotNet\MyAirport.Pim-master\Models.Sql\obj\D
 C:\Users\Utilisateur\Documents\ING5\DotNet\MyAirport.Pim-master\Models.Sql\obj\Debug\Models.Sql.csproj.CoreCompileInputs.cache
 C:\Users\Utilisateur\Documents\ING5\DotNet\MyAirport.Pim-master\Models.Sql\obj\Debug\Models.Sql.dll
 C:\Users\Utilisateur\Documents\ING5\DotNet\MyAirport.Pim-master\Models.Sql\obj\Debug\Models.Sql.pdb
+C:\Users\Utilisateur\Documents\ING5\DotNet\MyAirport.Pim-master\Models.Sql\bin\Debug\Models.Sql.dll
+C:\Users\Utilisateur\Documents\ING5\DotNet\MyAirport.Pim-master\Models.Sql\bin\Debug\Models.Sql.pdb
+C:\Users\Utilisateur\Documents\ING5\DotNet\MyAirport.Pim-master\Models.Sql\bin\Debug\Entities.dll
+C:\Users\Utilisateur\Documents\ING5\DotNet\MyAirport.Pim-master\Models.Sql\bin\Debug\Models.AbstractDefinition.dll
+C:\Users\Utilisateur\Documents\ING5\DotNet\MyAirport.Pim-master\Models.Sql\bin\Debug\Entities.pdb
+C:\Users\Utilisateur\Documents\ING5\DotNet\MyAirport.Pim-master\Models.Sql\bin\Debug\Models.AbstractDefinition.pdb

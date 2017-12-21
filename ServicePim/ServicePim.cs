@@ -27,7 +27,7 @@ namespace MyAirport.Pim.Service
         {
             NbAppelTotale++;
             this.NbAppelInstance++;
-            List<BagageDefinition> list = MyAirport.Pim.Models.Factory.Model.GetBagage(codeIata);
+            List<BagageDefinition> res = MyAirport.Pim.Models.Factory.Model.GetBagage(codeIata);
 
             if (res != null)
             {

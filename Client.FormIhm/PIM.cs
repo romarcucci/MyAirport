@@ -211,6 +211,15 @@ namespace Client.FormIhm
                         this.cbContinuation.Checked = Bagage.EnContinuation;
                         this.cbPrioritaire.Checked = Bagage.Prioritaire;
                         this.cbRush.Checked = Bagage.Rush;
+
+
+                        this.listBoxLogs.Items.Clear();
+                        this.listBoxLogs.Items.Add("Bagage trouvé");
+                    }
+                    else
+                    {
+                        this.listBoxLogs.Items.Clear();
+                        this.listBoxLogs.Items.Add("Bagage n'existe pas");
                     }
                 }
                 catch (AggregateException exception)
@@ -269,7 +278,6 @@ namespace Client.FormIhm
             bag.Compagnie = this.tbCompagnie.Text;
             bag.Ligne = this.tbLigne.Text;
             bag.Itineraire = this.tbItineraire.Text;
-            bag.Classe = this.tbClasseBagage.Text;
 
             if (this.cbContinuation.Checked == true)
                 bag.EnContinuation = true;

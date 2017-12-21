@@ -43,6 +43,7 @@
             this.classeBagage = new System.Windows.Forms.Label();
             this.itineraire = new System.Windows.Forms.Label();
             this.vol = new System.Windows.Forms.GroupBox();
+            this.listBoxLogs = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tbJourExploitation = new System.Windows.Forms.TextBox();
             this.tbLigne = new System.Windows.Forms.TextBox();
@@ -62,7 +63,6 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.message = new System.Windows.Forms.ToolStripStatusLabel();
             this.etat = new System.Windows.Forms.ToolStripStatusLabel();
-            this.listBoxLogs = new System.Windows.Forms.ListBox();
             this.gbRecherche.SuspendLayout();
             this.gbResultat.SuspendLayout();
             this.bagage.SuspendLayout();
@@ -247,6 +247,15 @@
             this.vol.TabStop = false;
             this.vol.Text = "Vol";
             // 
+            // listBoxLogs
+            // 
+            this.listBoxLogs.FormattingEnabled = true;
+            this.listBoxLogs.ItemHeight = 25;
+            this.listBoxLogs.Location = new System.Drawing.Point(10, 234);
+            this.listBoxLogs.Name = "listBoxLogs";
+            this.listBoxLogs.Size = new System.Drawing.Size(507, 79);
+            this.listBoxLogs.TabIndex = 8;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -413,15 +422,6 @@
             this.etat.Name = "etat";
             this.etat.Size = new System.Drawing.Size(150, 25);
             this.etat.Text = "Affichage Bagage";
-            // 
-            // listBoxLogs
-            // 
-            this.listBoxLogs.FormattingEnabled = true;
-            this.listBoxLogs.ItemHeight = 25;
-            this.listBoxLogs.Location = new System.Drawing.Point(10, 234);
-            this.listBoxLogs.Name = "listBoxLogs";
-            this.listBoxLogs.Size = new System.Drawing.Size(507, 79);
-            this.listBoxLogs.TabIndex = 8;
             // 
             // PIM
             // 

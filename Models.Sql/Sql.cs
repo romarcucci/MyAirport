@@ -77,7 +77,7 @@ namespace MyAirport.Pim.Models
             return bagRes;
         }
 
-        public override long CreateBagage(BagageDefinition bagage)
+        public override int CreateBagage(BagageDefinition bagage)
         {
             using (SqlConnection cnx = new SqlConnection(strCnx))
             {
@@ -92,7 +92,7 @@ namespace MyAirport.Pim.Models
                 cmd.Parameters.AddWithValue("@ligne", bagage.Ligne);
                 cmd.Parameters.AddWithValue("@continuation", bagage.EnContinuation);
                 cnx.Open();
-                long res = Convert.ToInt32(cmd.ExecuteScalar());
+                int res = Convert.ToInt32(cmd.ExecuteScalar());
                 if (bagage.Rush == true)
                 {
                     cmd2.Parameters.AddWithValue("@idBagage", res);
