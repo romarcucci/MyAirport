@@ -15,21 +15,21 @@ cela. En passant en mode création, les champs seront activés ainsi que le bouton
 
 MyAirport.Pim<br>
 |-+Models<br>
-| |-+AbstractDefinition<br>
-| |-+Factory<br>
-| |-+Natif<br>
-| |-+Sql<br>
+|&nbsp;|-+AbstractDefinition<br>
+|&nbsp;|-+Factory<br>
+|&nbsp;|-+Natif<br>
+|&nbsp;|-+Sql<br>
 |-+Client.FormIhm<br>
-| |-+PimState<br>
-| |-+Program<br>
+|&nbsp;|-+PimState<br>
+|&nbsp;|-+Program<br>
 |-+Entities<br>
-| |-+BagageDefinition<br>
-| |-+MultipleBagageFault<br>
+|&nbsp;|-+BagageDefinition<br>
+|&nbsp;|-+MultipleBagageFault<br>
 |-+Server.Host<br>
-| |-+Program<br>
+|&nbsp;|-+Program<br>
 |-+ServicePim<br>
-| |-+IServicePim<br>
-| |-+ServicePim<br>
+|&nbsp;|-+IServicePim<br>
+|&nbsp;|-+ServicePim<br>
 
 
 ###Projets de demarages
