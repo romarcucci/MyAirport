@@ -15,25 +15,23 @@ cela. En passant en mode création, les champs seront activés ainsi que le bouton
 
 ## Architecture du projet
 
-<ul>
-<li>MyAirport.Pim</li>
-<li>|-+Models</li>
-<li>| |-+AbstractDefinition</li>
-<li>| |-+Factory</li>
-<li>| |-+Natif</li>
-<li>| |-+Sql</li>
-<li>|-+Client.FormIhm</li>
-<li>| |-+PimState</li>
-<li>| |-+Program</li>
-<li>|-+Entities</li>
-<li>| |-+BagageDefinition</li>
-<li>| |-+MultipleBagageFault</li>
-<li>|-+Server.Host</li>
-<li>| |-+Program</li>
-<li>|-+ServicePim</li>
-<li>| |-+IServicePim</li>
-<li>| |-+ServicePim</li>
-</ul>
+MyAirport.Pim<br>
+|-+Models<br>
+|||-+AbstractDefinition<br>
+|||-+Factory<br>
+|||-+Natif<br>
+|||-+Sql<br>
+|-+Client.FormIhm<br>
+|||-+PimState<br>
+||-+Program<br>
+|-+Entities<br>
+|||-+BagageDefinition<br>
+|||-+MultipleBagageFault<br>
+|-+Server.Host<br>
+|||-+Program<br>
+|-+ServicePim<br>
+|||-+IServicePim<br>
+|||-+ServicePim<br>
 
 ###Projets de demarages
 ClientForm
