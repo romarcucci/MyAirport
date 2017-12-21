@@ -12,7 +12,7 @@ cela. En passant en mode création, les champs seront activés ainsi que le bouton
 (cela provoque une exception: System.ServiceModel.EndpointNotFoundException ).
 
 ## Architecture du projet
-
+<p>
 MyAirport.Pim<br>
 |-+Models<br>
 |&nbsp;|-+AbstractDefinition<br>
@@ -30,7 +30,7 @@ MyAirport.Pim<br>
 |-+ServicePim<br>
 |&nbsp;|-+IServicePim<br>
 |&nbsp;|-+ServicePim<br>
-
+</p>
 
 ###Projets de demarages
 ClientForm
