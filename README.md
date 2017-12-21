@@ -3,7 +3,7 @@
 ## Fonctionnement du projet
 L'application que nous avons développée permet de gérer le flux de bagages pour les aéroports. Au démarrage du projet, deux fenêtres s'ouvrent. La premiere qui s'appelle "Form1" 
 permet d'activer les webservices. Il faut pour cela cliquer sur le bouton "Create", l'état du webservice est alors à "created" et l'on peut ouvrir la connexion. Il suffit de cliquer 
-sur le bouton "Open", l'état est alors à "opened".
+sur le bouton "Open", l'état est alors à "opened".<br><br>
 On peut maintenant utiliser la fenêtre "PIM". La fenêtre est composée de plusieurs parties. Un menu tout en haut avec les champs "Commandes" et "Etat". "Commandes" contient un champs 
 "Réinitialiser" qui vide tout les champs de la fenêtre lorsqu'il est activé. Dans le champ "Etat", on peut choisir le mode de fonctionnement de la fenetre (affichage, création...). 
 Ensuite nous avons deux parties appellées "Recherche" et "Resultat", la premiere permet de lancer une recherche par code iata. Si le serveur n'est pas disponible, le webservice n'est 
@@ -13,23 +13,23 @@ cela. En passant en mode création, les champs seront activés ainsi que le bouton
 
 ## Architecture du projet
 
-MyAirport.Pim
-|-+Models
-| |-+AbstractDefinition
-| |-+Factory
-| |-+Natif
-| |-+Sql
-|-+Client.FormIhm
-| |-+PimState
-| |-+Program
-|-+Entities
-| |-+BagageDefinition
-| |-+MultipleBagageFault
-|-+Server.Host
-| |-+Program
-|-+ServicePim
-| |-+IServicePim
-| |-+ServicePim
+MyAirport.Pim<br>
+|-+Models<br>
+| |-+AbstractDefinition<br>
+| |-+Factory<br>
+| |-+Natif<br>
+| |-+Sql<br>
+|-+Client.FormIhm<br>
+| |-+PimState<br>
+| |-+Program<br>
+|-+Entities<br>
+| |-+BagageDefinition<br>
+| |-+MultipleBagageFault<br>
+|-+Server.Host<br>
+| |-+Program<br>
+|-+ServicePim<br>
+| |-+IServicePim<br>
+| |-+ServicePim<br>
 
 
 ###Projets de demarages
